@@ -1,3 +1,24 @@
+'''
+The second exercise in this chapter continues
+with random selection. In this exercise the objective
+is to develop a game called nuke-foot-cockroach, which is
+pretty similar to the more popular variant, paper-rock-scissors.
+The rules are simple: both players select either nuke,
+foot or cockroach, and the winner is determined in the following way:
+Foot beats cockroach, nuke beats foot and cockroach beats nuke.
+If both the player and the AI select the same, it's a tie,
+except if both choose nuke, then both lose.
+
+Implement the game so that the other player is computer controlled,
+and chooses randomly either foot(number 1), cockroach(number 3) or nuke(number 2).
+Also implement a feature which keeps the score, calculating both rounds
+the player won, and ties. If the player wins, print "You WIN!", if they loose "You LOSE!".
+If the round was a tie, either "It is a tie!" or "Both LOSE!", depending on
+if the tie was caused by a nuke or not. If the player selects "quit",
+the game ends and the final score is given. When the game works correctly,
+it prints the following:
+'''
+
 # -*- coding: cp1252 -*-
 
 import random
