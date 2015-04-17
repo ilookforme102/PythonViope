@@ -51,7 +51,7 @@ def emptyfile(name):
         emptyfile = open(name,'w')
         emptyfile.close()
     except IOError:
-        return False 
+        return False
 
 def main():
     filename="notebook.txt"
